@@ -1,1 +1,4 @@
-# objects_project
+1) The file (Point3D) contains program that initializes a class named Point3D and also a variable named my_point which contains a new instance of Point3D with x =1 ,y=2 and z = 3.
+2) The file (class_Rectangle) contains program which has a class named "Rectangle"; which contains two methods "Area" and "Perimeter" will compute the Area and Perimeter of the rectangle.
+3) The file (class_circle) contains program which has a class named "Circle" constructed by its center O and radius r , the class also contains two methods "Area" and "perimeter" which will compute the area and the perimeter of the circle, and its inside method which allows you to test whether a point A(x, y) belongs to the circle C(O, r) or not.
+4) The file (bank_account) contains program that models a bank account with support for deposit and withdraw operations.
