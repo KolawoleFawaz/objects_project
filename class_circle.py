@@ -24,4 +24,10 @@ class Circle:
             print("point lies within the Circle")
         else:
             print("point isn't in the circle")
+            
+            
+cu = Circle([3,2],5)
+cu.Area()
+cu.Perimeter()
+cu.Points(8,0)
 
