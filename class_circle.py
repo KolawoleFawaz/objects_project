@@ -17,7 +17,9 @@ class Circle:
         return "Perimeter is {}".format(2*self.R*3.142)
     
     def Points(self,x,y):
-        d = sqrt((self.x - self.O[0])**2 + (self.y - self.O[1])**2))
+        self.x = x
+        self.y = y
+        d = sqrt((self.x - self.O[0])**2 + (self.y - self.O[1])**2)
         if d < self.R:
             print("point lies within the Circle")
         else:
