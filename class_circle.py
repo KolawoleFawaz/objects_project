@@ -17,9 +17,9 @@ class Circle:
         return "Perimeter is {}".format(2*self.R*3.142)
     
     def Point(self,x,y):
-        list_xy = [x,y]
-        if self.O == list_xy:
-            print("Point A(x,y) belongs to Circle C(O,R) ")
+        d = sqrt((self.x - self.O[0])**2 + (self.y - self.[1])**2))
+        if d < self.R:
+            print("point lies within the Circle")
         else:
-            print("Point A(x,y) does not belong to Circle C(O,R)")
+            print("point isn't in the circle")
 
